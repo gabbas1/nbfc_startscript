@@ -4,5 +4,5 @@
 sudo sh /opt/nbfc/Linux/bin/ReleaseLinux/start-nbfcservice.sh
 mono /opt/nbfc/Linux/bin/ReleaseLinux/nbfc.exe config --apply default
 
-# Uncomment below only to troubleshoot when manually running script
-# mono /opt/nbfc/Linux/bin/ReleaseLinux/nbfc.exe status -a
+# Check status of NBFC when manually running script
+mono /opt/nbfc/Linux/bin/ReleaseLinux/nbfc.exe status -a
